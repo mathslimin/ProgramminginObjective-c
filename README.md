@@ -1,3 +1,2 @@
-OC_Review
 =========
-practice maek perfect, step by step!
+learning objective-c and write the code of that book
