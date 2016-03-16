@@ -14,7 +14,7 @@
 
 -(void)chapter15_01
 {
-    NSNumber *myNumber, *floatNumber, *intNumber;
+    NSNumber *myNumber, *floatNumber, *intNumber, *intNumberOne;
     NSInteger myInt;
     
     //integer 类型值
@@ -52,7 +52,10 @@
     
     if ([intNumber compare:myNumber] == NSOrderedAscending) {
         NSLog(@"First number is less than second");
+    }else{
+        NSLog(@"First number is bigger than second");
     }
+    
 }
 
 
@@ -72,7 +75,7 @@
     
     NSLog(@"Length of str1: %lu",[str1 length]);
     
-    res = [NSString stringWithString:str1];
+    res = [NSString stringWithString:str1];//复制字符串
     NSLog(@"copy: %@",res);
     
     str2 = [str1 stringByAppendingString:str2];
@@ -122,7 +125,7 @@
     NSLog(@"Chars fomr index 8 throught 13: %@", res);
     
     subRange = [str1 rangeOfString:@"string A"];
-    NSLog(@"String is at index %lu, lenght is %lu",subRange.location, subRange.length);
+    NSLog(@"String is at index %lu, length is %lu",subRange.location, subRange.length);
     
     subRange = [str1 rangeOfString:@"string B"];
     if (subRange.location == NSNotFound) {

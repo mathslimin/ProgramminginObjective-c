@@ -12,7 +12,7 @@
 
 -(void)chapter16_01
 {
-    NSString *fName = @"/Volumes/databack/OC_Review/oc_OOAndBasicSyntax/chapter_16/testfile";
+    NSString *fName = @"/Users/limin/code/OC_Review/oc_OOAndBasicSyntax/chapter_16/testfile";
     NSFileManager *fm;
     NSDictionary *arr;
     
@@ -22,7 +22,7 @@
 //    
 //    fName = [[filePath stringByAppendingString:@"/"]stringByAppendingString:fName];
     NSLog(@"%@",fName);
-    [fm changeCurrentDirectoryPath:@"/Volumes/databack/OC_Review/oc_OOAndBasicSyntax/chapter_16"];
+    [fm changeCurrentDirectoryPath:@"/Users/limin/code/OC_Review/oc_OOAndBasicSyntax/chapter_16/"];
     NSLog(@"%@",[fm currentDirectoryPath]);
     if ([fm fileExistsAtPath:fName] == NO) {
         NSLog(@"File doesn't exist!");
@@ -92,7 +92,7 @@
     }
     
     if ([fm moveItemAtPath:dirName toPath:@"newdir" error:NULL] == NO) {
-        NSLog(@"Direcoty rename failed");
+        NSLog(@"Directory rename failed");
     }
     
     if ([fm changeCurrentDirectoryPath:@"newdir"] == NO) {

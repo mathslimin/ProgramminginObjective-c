@@ -33,7 +33,7 @@
     Square *mySqu = [[Square alloc] init];
     [mySqu setSide:5];
     NSLog(@"Square s = %i",[mySqu side]);
-     NSLog(@"Area = %i, Perimeter = %i",[mySqu area], [mySqu perimeter]);
+    NSLog(@"Area = %i, Perimeter = %i",[mySqu area], [mySqu perimeter]);
 }
 
 @end

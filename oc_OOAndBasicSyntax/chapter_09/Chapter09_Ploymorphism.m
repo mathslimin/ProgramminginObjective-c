@@ -32,13 +32,15 @@
     [c1 setReal:18.0 andImaginary:2.5];
     [c2 setReal:-5.0 andImaginary:3.2];
     
-    [c1 print]; NSLog(@" + ");[c2 print];
+    [c1 print]; NSLog(@" + ");
+    [c2 print];
     NSLog(@"----------");
     complexResult = [c1 add:c2];
     [complexResult print];
     NSLog(@"\n");
     
-    [f1 print]; NSLog(@" +"); [f2 print];
+    [f1 print]; NSLog(@" +");
+    [f2 print];
     NSLog(@"------------");
     fractionResult = [f1 addResult:f2];
     [fractionResult print];

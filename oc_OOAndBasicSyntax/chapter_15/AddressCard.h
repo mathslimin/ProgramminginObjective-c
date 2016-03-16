@@ -18,7 +18,7 @@
 -(void) print;
 
 //for chapter 19
-
+//19章添加NSCopying 协议的方法
 -(void)assingnName: (NSString *)theName andEmail:(NSString *)theEmail;
 
 

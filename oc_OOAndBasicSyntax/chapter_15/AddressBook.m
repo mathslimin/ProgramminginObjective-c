@@ -36,9 +36,10 @@
   //ADD by limin 有报错
   //for(AddressCard *theCard in book)
   //{
-  //   NSLog(@"%-20s   %-32s",[theCard.name UTF8String], [theCard.email UTF8String]);
+  //    NSLog(@"%-20s   %-32s",[theCard.name UTF8String], [theCard.email UTF8String]);
   //    NSLog(@"==========================================");
   //}
+
 }
 
 //for chapter 19
