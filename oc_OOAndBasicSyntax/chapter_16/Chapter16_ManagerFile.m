@@ -2,8 +2,8 @@
 //  Chapter16_ManagerFile.m
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-7-14.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-7-14.
+//   
 //
 
 #import "Chapter16_ManagerFile.h"
@@ -70,7 +70,7 @@
     }
     
     if ([fm createFileAtPath:@"newfile3" contents:fileData attributes:nil] == NO) {
-        NSLog(@"Coundn't crreat the copy!");
+        NSLog(@"Coundn't create the copy!");
     }
     
     NSLog(@"File copy was successful!");

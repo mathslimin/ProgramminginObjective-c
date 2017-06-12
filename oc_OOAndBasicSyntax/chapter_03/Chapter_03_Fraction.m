@@ -2,8 +2,8 @@
 //  Fraction.m
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-5-5.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-5-5.
+//   
 //
 
 #import "Chapter_03_Fraction.h"
@@ -17,8 +17,6 @@
     int numerator;
     int denominator;
 }
-
-
 
 -(void) print
 {

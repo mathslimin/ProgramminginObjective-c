@@ -2,8 +2,8 @@
 //  LeapYear.h
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-6-29.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-6-29.
+//   
 //
 
 #import <Foundation/Foundation.h>

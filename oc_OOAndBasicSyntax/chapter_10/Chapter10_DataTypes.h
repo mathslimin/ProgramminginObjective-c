@@ -2,8 +2,8 @@
 //  Chapter10_DataTypes.h
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-6-18.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-6-18.
+//   
 //
 
 #import <Foundation/Foundation.h>

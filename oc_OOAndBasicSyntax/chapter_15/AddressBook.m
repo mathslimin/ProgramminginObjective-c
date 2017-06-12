@@ -2,8 +2,8 @@
 //  AddressCard_New.m
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-6-30.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-6-30.
+//   
 //
 
 #import "AddressBook.h"
@@ -34,11 +34,11 @@
 {
     NSLog(@"========= Contents of: %@========",bookName);
   //ADD by limin 有报错
-  //for(AddressCard *theCard in book)
-  //{
-  //    NSLog(@"%-20s   %-32s",[theCard.name UTF8String], [theCard.email UTF8String]);
-  //    NSLog(@"==========================================");
-  //}
+  for(AddressCard *theCard in book)
+  {
+      NSLog(@"AddressCard list %-20s   %-32s",[theCard.name UTF8String], [theCard.email UTF8String]);
+      NSLog(@"==========================================");
+  }
 
 }
 

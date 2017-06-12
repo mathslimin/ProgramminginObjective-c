@@ -2,8 +2,8 @@
 //  Chapter15_Num_Str_Collections.m
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-6-29.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-6-29.
+//   
 //
 
 #import "Chapter15_Num_Str_Collections.h"
@@ -161,7 +161,7 @@
     
     substr = [mstr rangeOfString:@"string B and"];
     if (substr.location != NSNotFound) {
-        [mstr deleteCharactersInRange:substr];\
+        [mstr deleteCharactersInRange:substr];
         NSLog(@"%@", mstr);
     }
     
@@ -174,9 +174,9 @@
     search = @"This is";
     replace = @"An examle of";
     substr = [mstr rangeOfString:search];
-    if (substr.location !=NSNotFound) {
+    if (substr.location != NSNotFound) {
         [mstr replaceCharactersInRange:substr withString:replace];
-        NSLog(@"%@",mstr);
+        NSLog(@"%@", mstr);
     }
     search = @"a";
     replace = @"X";

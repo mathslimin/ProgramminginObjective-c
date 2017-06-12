@@ -2,8 +2,8 @@
 //  Chapter06_MakingDecisions.m
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-5-5.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-5-5.
+//   
 //
 
 #import "Chapter06_MakingDecisions.h"
@@ -44,7 +44,7 @@
         if (num2 == 0) {
             NSLog(@"Division by zero.");
         }else{
-        [caculator divide:num2];
+            [caculator divide:num2];
         }
     }else
     {

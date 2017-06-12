@@ -2,8 +2,8 @@
 //  Chapter16_ManagerFile.h
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-7-14.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-7-14.
+//   
 //
 
 #import <Foundation/Foundation.h>

@@ -2,8 +2,8 @@
 //  Chapter11_category.h
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-6-26.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-6-26.
+//   
 //
 
 #import <Foundation/Foundation.h>

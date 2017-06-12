@@ -2,8 +2,8 @@
 //  Chapter_05_Looping.m
 //  oc_OOAndBasicSyntax
 //
-//  Created by pan dabo on 13-5-5.
-//  Copyright (c) 2013年 pan dabo. All rights reserved.
+//    on 13-5-5.
+//   
 //
 
 #import "Chapter_05_Looping.h"
@@ -36,6 +36,7 @@
     NSLog(@"the result is : %d",result);
     
 }
+
 -(int) getMaxDivideNum: (int) v otherNum:(int) u
 {
     result = 0;
